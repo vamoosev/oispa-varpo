@@ -344,17 +344,17 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background-image: url(/static/aleksi.png);
+    background-image: url(./static/aleksi.png);
 
     background-size: cover;
 
   }
   .tile.tile-4 .tile-inner {
-    background-image: url(/static/joose.jpeg);
+    background-image: url(./static/joose.jpeg);
 
     background-size: cover;}
   .tile.tile-8 .tile-inner {
-    background-image: url(/static/leo.png);
+    background-image: url(./static/leo.png);
     background-size: cover;
   }
   .tile.tile-16 .tile-inner {
