@@ -8,11 +8,14 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
+  this.inputManager.on("niksakatko", this.niksakatko.bind(this));
   this.inputManager.on("keepPlaying", this.keepPlaying.bind(this));
 
   this.setup();
 }
-
+GameManager.prototype.niksakatko = function () {  
+  this.actuator.niksakatko();
+};
 // Restart the game
 GameManager.prototype.restart = function () {
   this.storageManager.clearGameState();

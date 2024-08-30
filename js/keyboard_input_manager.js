@@ -142,3 +142,8 @@ KeyboardInputManager.prototype.bindButtonPress = function (selector, fn) {
   button.addEventListener("click", fn.bind(this));
   button.addEventListener(this.eventTouchend, fn.bind(this));
 };
+
+// KeyboardInputManager.prototype.niksaKatko = function (event) {
+//   event.preventDefault();
+//   this.emit("niksakatko");
+// }

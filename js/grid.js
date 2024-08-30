@@ -93,7 +93,13 @@ Grid.prototype.insertTile = function (tile) {
 Grid.prototype.removeTile = function (tile) {
   this.cells[tile.x][tile.y] = null;
 };
-
+Grid.prototype.getTile = function (x, y) {
+  if (this.withinBounds({ x: x, y: y })) {
+    return this.cells[x][y];
+  } else {
+    return null;
+  }
+};
 Grid.prototype.withinBounds = function (position) {
   return position.x >= 0 && position.x < this.size &&
          position.y >= 0 && position.y < this.size;
