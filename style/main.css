@@ -358,11 +358,12 @@ hr {
     background-size: cover;
   }
   .tile.tile-16 .tile-inner {
-    background-image: url(/oispa-varpo/andreas.png);
+    background-image: url(/oispa-varpo/olli.jpeg);
     background-size: cover;
   }
   .tile.tile-32 .tile-inner {
-    
+    background-image: url(/oispa-varpo/andreas.png);
+    background-size: cover;
      }
   .tile.tile-64 .tile-inner {
     
