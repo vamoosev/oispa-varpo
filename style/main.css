@@ -243,9 +243,7 @@ hr {
   font-style: italic;
   font-weight: bold;
 }
-.wip {
-  color:red;
-}
+
 
 .tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
@@ -767,3 +765,10 @@ hr {
   border-radius: 5px;
   text-align: center; 
 };
+
+
+.wip {
+  color:red;
+  font-weight: bold;
+  
+}
