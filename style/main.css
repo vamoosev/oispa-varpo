@@ -350,15 +350,15 @@ hr {
 
   }
   .tile.tile-4 .tile-inner {
-    background-image: url(/joose.jpeg);
+    background-image: url(/oispa-varpo/joose.jpeg);
 
     background-size: cover;}
   .tile.tile-8 .tile-inner {
-    background-image: url(/leo.png);
+    background-image: url(/oispa-varpo/leo.png);
     background-size: cover;
   }
   .tile.tile-16 .tile-inner {
-    background-image: url(/andreas.png);
+    background-image: url(/oispa-varpo/andreas.png);
     background-size: cover;
   }
   .tile.tile-32 .tile-inner {
