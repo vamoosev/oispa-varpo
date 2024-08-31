@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+.wip {
+  color:red;
+  font-weight: bold;
+  
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -341,44 +347,56 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
-  .tile.tile-2 .tile-inner {
-    background-image: url(/oispa-varpo/aleksi.png);
-
-    background-size: cover;
-
-  }
-  .tile.tile-4 .tile-inner {
-    background-image: url(/oispa-varpo/joose.jpeg);
-
-    background-size: cover;}
-  .tile.tile-8 .tile-inner {
-    background-image: url(/oispa-varpo/leo.png);
-    background-size: cover;
-  }
-  .tile.tile-16 .tile-inner {
-    background-image: url(/oispa-varpo/olli.jpeg);
-    background-size: cover;
-  }
-  .tile.tile-32 .tile-inner {
-    background-image: url(/oispa-varpo/andreas.png);
-    background-size: cover;
+    .tile.tile-2 .tile-inner {
+      background-image: url(aleksi.png);
+  
+      background-size: cover;
+  
+    }
+    .tile.tile-4 .tile-inner {
+      background-image: url(joose.jpeg);
+  
+      background-size: cover;}
+    .tile.tile-8 .tile-inner {
+      background-image: url(leo.png);
+      background-size: cover;
+    }
+    .tile.tile-16 .tile-inner {
+      background-image: url(olli.jpeg);
+      background-size: cover;
+    }
+    .tile.tile-32 .tile-inner {
+      background-image: url(andreas.png);
+      background-size: cover;
+       }
+    .tile.tile-64 .tile-inner {
+      background-image: url(leevi.jpeg);
+      background-size: cover;
+      }
+    .tile.tile-128 .tile-inner {
+      background-image: url(samuel.png);
+      background-size: cover;
+    }
+    .tile.tile-256 .tile-inner {
+      background-image: url(pylly.png);
+      background-size: cover;
+      }
+    .tile.tile-512 .tile-inner {
+      background-image: url(patu.png);
+      background-size: cover;
      }
-  .tile.tile-64 .tile-inner {
-    
-    }
-  .tile.tile-128 .tile-inner {
-  }
-  .tile.tile-256 .tile-inner {
-    }
-  .tile.tile-512 .tile-inner {
-    
-   }
-  .tile.tile-1024 .tile-inner {
-    
-   }
-  .tile.tile-2048 .tile-inner {
-    
-    }
+    .tile.tile-1024 .tile-inner {
+      background-image: url(jerry.jpg);
+      background-size: cover;
+     }
+    .tile.tile-2048 .tile-inner {
+      background-image: url(muhis.jpeg);
+      background-size: cover;
+      }
+      .tile.tile-4096 .tile-inner {
+        background-image: url(heiska.png);
+      background-size: cover;
+      }
     .tile.tile-super .tile-inner {
     
       background: #3c3a32;
@@ -767,8 +785,3 @@ hr {
 };
 
 
-.wip {
-  color:red;
-  font-weight: bold;
-  
-}
