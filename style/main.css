@@ -4,6 +4,18 @@
   font-weight: bold;
   
 }
+.game-over {
+  /* set font to commicsans */
+   font-family: 'Comic Sans MS', cursive;
+   color: lightseagreen;
+  p{
+    font-size: 50px;
+    margin-bottom:  30px;
+    width: 200%;
+    margin-left: -50%;
+  }
+
+ }
 
 html, body {
   margin: 0;
@@ -601,6 +613,7 @@ hr {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
+    
     .game-container .game-message {
       display: none;
       position: absolute;
@@ -640,12 +653,14 @@ hr {
           display: none; }
       .game-container .game-message.game-won {
         background: rgba(237, 194, 46, 0.5);
-        color: #f9f6f2; }
+        color: #f49e2d; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
         display: block; }
+      
 
+        
   .grid-container {
     position: absolute;
     z-index: 1; }
@@ -658,7 +673,7 @@ hr {
       content: "";
       display: block;
       clear: both; }
-
+    
   .grid-cell {
     width: 57.5px;
     height: 57.5px;
